@@ -1,0 +1,33 @@
+n,row,col,method,p_high,p_low,p_none,consistent
+10,accumulator,identical,"reference: accumulator only, no noise",0.551,0.0,0.449,0.449
+10,accumulator,identical,epoch,0.012,0.045,0.943,0.943
+10,accumulator,identical,deconv,0.017,0.0365,0.9465,0.9465
+10,accumulator,identical,residual,0.0065,0.0625,0.931,0.931
+10,accumulator,differs,"reference: accumulator only, no noise",1.0,0.0,0.0,1.0
+10,accumulator,differs,epoch,0.4485,0.0,0.5515,0.4485
+10,accumulator,differs,deconv,0.117,0.0025,0.8805,0.117
+10,accumulator,differs,residual,0.2595,0.001,0.7395,0.2595
+10,components,identical,"reference: accumulator only, no noise",0.5705,0.0,0.4295,0.4295
+10,components,identical,epoch,0.068,0.007,0.925,0.925
+10,components,identical,deconv,0.0165,0.036,0.9475,0.9475
+10,components,identical,residual,0.0075,0.0605,0.932,0.932
+10,components,differs,"reference: accumulator only, no noise",0.9985,0.0,0.0015,0.9985
+10,components,differs,epoch,0.7235,0.0,0.2765,0.7235
+10,components,differs,deconv,0.1355,0.0025,0.862,0.1355
+10,components,differs,residual,0.242,0.0005,0.7575,0.242
+20,accumulator,identical,"reference: accumulator only, no noise",0.918,0.0,0.082,0.082
+20,accumulator,identical,epoch,0.0075,0.054,0.9385,0.9385
+20,accumulator,identical,deconv,0.0165,0.0355,0.948,0.948
+20,accumulator,identical,residual,0.004,0.0875,0.9085,0.9085
+20,accumulator,differs,"reference: accumulator only, no noise",1.0,0.0,0.0,1.0
+20,accumulator,differs,epoch,0.8,0.0,0.2,0.8
+20,accumulator,differs,deconv,0.207,0.002,0.791,0.207
+20,accumulator,differs,residual,0.468,0.0,0.532,0.468
+20,components,identical,"reference: accumulator only, no noise",0.9155,0.0,0.0845,0.0845
+20,components,identical,epoch,0.0895,0.003,0.9075,0.9075
+20,components,identical,deconv,0.0125,0.0375,0.95,0.95
+20,components,identical,residual,0.006,0.0835,0.9105,0.9105
+20,components,differs,"reference: accumulator only, no noise",1.0,0.0,0.0,1.0
+20,components,differs,epoch,0.976,0.0,0.024,0.976
+20,components,differs,deconv,0.2255,0.0015,0.773,0.2255
+20,components,differs,residual,0.487,0.0,0.513,0.487

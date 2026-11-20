@@ -1,0 +1,17 @@
+n,row,method,hit,false_alarm,dprime
+10,accumulator,"reference: accumulator only, no noise",1.0,0.5509999999999999,3.35
+10,accumulator,epoch,0.4485,0.05700000000000005,1.45
+10,accumulator,deconv,0.117,0.05349999999999999,0.42
+10,accumulator,residual,0.2595,0.06899999999999995,0.84
+10,components,"reference: accumulator only, no noise",0.9985,0.5705,2.79
+10,components,epoch,0.7235,0.07499999999999996,2.03
+10,components,deconv,0.1355,0.05249999999999999,0.52
+10,components,residual,0.242,0.06799999999999995,0.79
+20,accumulator,"reference: accumulator only, no noise",1.0,0.918,2.09
+20,accumulator,epoch,0.8,0.0615,2.38
+20,accumulator,deconv,0.207,0.052000000000000046,0.81
+20,accumulator,residual,0.468,0.09150000000000003,1.25
+20,components,"reference: accumulator only, no noise",1.0,0.9155,2.11
+20,components,epoch,0.976,0.09250000000000003,3.3
+20,components,deconv,0.2255,0.050000000000000044,0.89
+20,components,residual,0.487,0.08950000000000002,1.31

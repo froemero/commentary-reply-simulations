@@ -2,13 +2,17 @@
 #                × (signal identical, only RTs differ | signal differs: low vs high drift).
 # Model: Kelly & O'Connell trial loop with O'Connell et al. (2025) settings (d = 1 vs 2, U = 1, Z = 0.3, Sz = 0.4,
 # Su = 0.17) and empirically realistic delay variability (σ encoding 15 ms, σ motor 25 ms).
+# Between-participant variability: baseline drift d0 ~ N(1.5, 0.3); drift effect Δ ~ N(1, 0.5);
+# in the 'signal identical' column both conditions use d0 and the low condition's encoding delay is longer by
+# Δenc ~ N(ΔRT, ΔRT/2), so RTs differ while the response-locked accumulation is the same.
 # Contrast = experimental condition (low vs high drift), not an RT split. Pink noise added.
 # Each method is scored against ground truth, not against classic averaging.
 include(joinpath(@__DIR__, "..", "src", "ReplySims.jl")); using .ReplySims
 using Unfold, StableRNGs, Random, Statistics, DataFrames, CSV, CairoMakie, FFTW
 fs = 100; dt = 1 / fs; tv = collect(0:dt:(1.6 - dt)); L = length(tv)
 τS = (-0.2, 1.2); τR = (-0.8, 0.4)
-Nper = 300; nseeds = 50; noise_sd = 0.05
+Nper = 150; nseeds = 100; noise_sd = 2.0   # noise SD ≈ 4× single-trial CPP peak; calibrated for ≈80% power (epoch, n = 20)
+sd_d0, sd_Δ = 0.3, 0.5                      # between-participant SD of baseline drift and of the drift effect
 sd_enc, sd_mot = 0.015, 0.025
 d_low, d_high = 1.0, 2.0
 root = joinpath(@__DIR__, "..")
@@ -25,12 +29,14 @@ function pink(rng, n)
 end
 
 # one dataset
-function simulate(rng; row::Symbol, col::Symbol, Δenc = 0.0, Δmot = 0.0)
+function simulate(rng; row::Symbol, col::Symbol, ΔRT = 0.0)
+    d0 = (d_low + d_high) / 2 + sd_d0 * randn(rng); Δd = (d_high - d_low) + sd_Δ * randn(rng)
+    Δenc = max(0.0, ΔRT + ΔRT / 2 * randn(rng)); Δmot = 0.0
     conds = shuffle(rng, vcat(fill("low", Nper), fill("high", Nper)))
     onsets = Int[]; rts = Float64[]; traces = Vector{Vector{Float64}}()
     t = 50
     for c in conds
-        d = col === :differs ? (c == "low" ? d_low : d_high) : (d_low + d_high) / 2
+        d = col === :differs ? (c == "low" ? d0 - Δd / 2 : d0 + Δd / 2) : d0
         extra_enc = (col === :identical && c == "low") ? Δenc : 0.0
         extra_mot = (col === :identical && c == "low") ? Δmot : 0.0
         rt, ch, cpp = kelly_port_trial(rng, tv, dt; d, Terz = sd_to_width(sd_enc), st = sd_to_width(sd_mot),
@@ -93,7 +99,7 @@ truth = Dict(:identical => 0.0, :differs => d_high - d_low)
 
 rows = []; examples = Dict()
 for row in (:accumulator, :components), col in (:identical, :differs), seed in 1:nseeds
-    eeg, acc, evts = simulate(StableRNG(seed); row, col, Δenc = ΔRT / 2, Δmot = ΔRT / 2)
+    eeg, acc, evts = simulate(StableRNG(seed); row, col, ΔRT)
     est = estimate(eeg, acc, evts)
     seed == 1 && (examples[(row, col)] = est)
     for (meth, d) in est
@@ -115,7 +121,7 @@ CSV.write(joinpath(root, "results", "diagnostic_2x2_summary.csv"), summ)
 methods = ["reference: accumulator only, no noise", "epoch", "deconv", "residual"]
 fig = Figure(size = (1300, 900)); axs = Dict{Tuple{Int,Int},Axis}()
 rlab = Dict(:accumulator => "accumulator only", :components => "accumulator + S/R components")
-clab = Dict(:identical => "signal identical (only RT differs)", :differs => "signal differs (drift 1 vs 2)")
+clab = Dict(:identical => "signal identical (RT differs via encoding delay)", :differs => "signal differs (drift 1 vs 2)")
 for (i, (row, col)) in enumerate([(r, c) for r in (:accumulator, :components) for c in (:identical, :differs)]), (j, meth) in enumerate(methods)
     ax = axs[(i, j)] = Axis(fig[i, j]; title = i == 1 ? meth : "", titlesize = 11, xlabel = i == 4 ? "time from response (s)" : "",
               ylabel = j == 1 ? "$(rlab[row])\n$(clab[col])" : "", ylabelsize = 10)
@@ -126,7 +132,7 @@ for (i, (row, col)) in enumerate([(r, c) for r in (:accumulator, :components) fo
     i == 1 && j == 1 && axislegend(ax; position = :lt, framevisible = false, labelsize = 9)
 end
 linkyaxes!([axs[(i, j)] for i in 1:4, j in 1:3]...); linkyaxes!([axs[(i, 4)] for i in 1:4]...)
-for i in 1:4, j in 1:3; ylims!(axs[(i, j)], -0.05, 0.9); end
+# example participant (seed 1), single participant data are noisy by design
 Label(fig[5, 1:4], "Columns 1–3 share one y-axis; residual (column 4) shares its own, smaller y-axis. Grey band = slope window."; fontsize = 11)
 save(joinpath(root, "figures", "diagnostic_2x2_waveforms.png"), fig, px_per_unit = 2)
 

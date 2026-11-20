@@ -8,10 +8,10 @@ df = CSV.read(joinpath(root, "results", "diagnostic_2x2.csv"), DataFrame)
 methods = ["reference: accumulator only, no noise", "epoch", "deconv", "residual"]
 mlab = ["noise-free\naccumulator", "epoch", "deconv", "residual"]
 rows = [("accumulator", "Accumulator only"), ("components", "Accumulator + S/R components")]
-cols = [("identical", "Signal identical (only RT differs)", 0.0), ("differs", "Signal differs (drift 1 vs 2)", 1.0)]
+cols = [("identical", "Signal identical (RT differs via encoding delay)", 0.0), ("differs", "Signal differs (drift 1 vs 2)", 1.0)]
 truecol = :seagreen
 yl = (minimum(df.slope_diff) - 0.05, maximum(df.slope_diff) + 0.05)
-yl = (min(yl[1], -0.45), max(yl[2], 1.35))
+yl = (min(yl[1], -1.0), max(yl[2], 2.0))
 
 fig = Figure(size = (1000, 820))
 for (i, (r, rl)) in enumerate(rows), (j, (c, cl, truth)) in enumerate(cols)
@@ -35,6 +35,6 @@ Legend(fig[3, 1:2],
        [LineElement(color = truecol, linewidth = 2.5), LineElement(color = (:gray, 0.7), linewidth = 1.5, linestyle = :dash)],
        ["true effect in this cell", "other reference (0 = no effect, 1 = drift effect)"];
        orientation = :horizontal, framevisible = false, labelsize = 11)
-Label(fig[0, 1:2], "Build-up-rate difference (response-locked slope, −250 to −50 ms), 50 simulated experiments per cell"; fontsize = 13)
+Label(fig[0, 1:2], "Build-up-rate difference (response-locked slope, −250 to −50 ms), 100 simulated participants per cell (each point = one participant)"; fontsize = 13)
 save(joinpath(root, "figures", "diagnostic_2x2_slopes.png"), fig, px_per_unit = 2)
 println("ok")
