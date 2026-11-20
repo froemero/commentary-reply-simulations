@@ -1,0 +1,25 @@
+cell,variant,deconv,residual
+σ 0/0,Kelly/O'Connell code,3.1,0.64
+σ 0/0,"KellyModel matched (uniform delays, motor 0.1, no start-point var, post-acc U(.1,.3))",1.34,0.28
+σ 0/0,"  + bound 0.7 (≈ Kelly effective bound)",2.93,0.28
+σ 0/0,"  + start-point variability σ 0.2 in evidence (KellyModel default)",1.49,0.19
+σ 0/0,"  + motor mean 0.4 (KellyModel default)",1.47,0.29
+σ 0/0,"  + post-acc N(0.1, 0.001) (KellyModel default)",0.61,0.21
+σ 0/0,"  + Normal delays (KellyModel default)",2.97,0.31
+σ 0/0,KellyModel defaults (as in reply Supp. Fig. 2),2.98,0.27
+realistic σ 0.015/0.025,Kelly/O'Connell code,2.85,0.39
+realistic σ 0.015/0.025,"KellyModel matched (uniform delays, motor 0.1, no start-point var, post-acc U(.1,.3))",2.08,0.1
+realistic σ 0.015/0.025,"  + bound 0.7 (≈ Kelly effective bound)",1.85,0.12
+realistic σ 0.015/0.025,"  + start-point variability σ 0.2 in evidence (KellyModel default)",1.21,0.21
+realistic σ 0.015/0.025,"  + motor mean 0.4 (KellyModel default)",2.23,0.11
+realistic σ 0.015/0.025,"  + post-acc N(0.1, 0.001) (KellyModel default)",1.27,0.18
+realistic σ 0.015/0.025,"  + Normal delays (KellyModel default)",1.35,0.13
+realistic σ 0.015/0.025,KellyModel defaults (as in reply Supp. Fig. 2),0.77,0.28
+σ 0.1/0.1,Kelly/O'Connell code,0.9,0.36
+σ 0.1/0.1,"KellyModel matched (uniform delays, motor 0.1, no start-point var, post-acc U(.1,.3))",1.0,0.34
+σ 0.1/0.1,"  + bound 0.7 (≈ Kelly effective bound)",1.0,0.38
+σ 0.1/0.1,"  + start-point variability σ 0.2 in evidence (KellyModel default)",0.98,0.34
+σ 0.1/0.1,"  + motor mean 0.4 (KellyModel default)",1.02,0.35
+σ 0.1/0.1,"  + post-acc N(0.1, 0.001) (KellyModel default)",0.98,0.54
+σ 0.1/0.1,"  + Normal delays (KellyModel default)",0.8,0.27
+σ 0.1/0.1,KellyModel defaults (as in reply Supp. Fig. 2),0.79,0.4
