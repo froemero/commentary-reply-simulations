@@ -1,0 +1,17 @@
+row,col,method,slope_mean,slope_sd,ampl_mean,ampl_sd,truth_slope
+accumulator,identical,"reference: accumulator only, no noise",-0.118,0.079,-0.042,0.009,0.0
+accumulator,identical,residual,-0.258,0.075,-0.032,0.011,0.0
+accumulator,identical,deconv,-0.169,0.087,-0.049,0.024,0.0
+accumulator,identical,epoch,-0.118,0.08,-0.042,0.011,0.0
+accumulator,differs,"reference: accumulator only, no noise",0.771,0.082,0.055,0.01,1.0
+accumulator,differs,residual,0.517,0.082,0.055,0.008,1.0
+accumulator,differs,deconv,0.416,0.101,0.063,0.026,1.0
+accumulator,differs,epoch,0.773,0.088,0.055,0.01,1.0
+components,identical,"reference: accumulator only, no noise",-0.118,0.079,-0.042,0.009,0.0
+components,identical,residual,-0.258,0.075,-0.032,0.011,0.0
+components,identical,deconv,-0.169,0.087,-0.049,0.024,0.0
+components,identical,epoch,0.165,0.106,-0.018,0.012,0.0
+components,differs,"reference: accumulator only, no noise",0.771,0.082,0.055,0.01,1.0
+components,differs,residual,0.517,0.082,0.055,0.008,1.0
+components,differs,deconv,0.416,0.101,0.063,0.026,1.0
+components,differs,epoch,1.072,0.114,0.096,0.011,1.0
