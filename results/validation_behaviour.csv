@@ -1,0 +1,5 @@
+model,accuracy,rt_q,rt_sd
+"Kelly/O'Connell code, O'Connell 2025 settings (d=6, U=1, Terz=st=0.1 width)",1.0,"[0.317, 0.348, 0.372, 0.398, 0.432]",0.046
+"Kelly/O'Connell code, NHB 2024 settings (d=6, U=0.5, Terz=st=0.2 width)",1.0,"[0.286, 0.349, 0.396, 0.442, 0.506]",0.083
+"UnfoldSim KellyModel defaults (σ sens = σ motor = 0.1, motor mean 0.4)",1.0,"[0.544, 0.65, 0.717, 0.786, 0.895]",0.135
+"UnfoldSim KellyModel matched means/spreads (motor mean 0.1, uniform widths 0.1, no start point var)",1.0,"[0.358, 0.392, 0.415, 0.44, 0.476]",0.045
