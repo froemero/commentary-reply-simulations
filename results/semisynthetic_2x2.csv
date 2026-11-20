@@ -1,0 +1,961 @@
+lambda,row,col,vp,method,slope_diff,truth_slope
+0.0,accumulator,identical,05,"reference: accumulator only, no noise",0.02390545264172904,0.0
+0.0,accumulator,identical,05,residual,-0.015282998945810394,0.0
+0.0,accumulator,identical,05,deconv,0.4848575745610219,0.0
+0.0,accumulator,identical,05,epoch,0.08462537395290733,0.0
+0.0,accumulator,identical,07,"reference: accumulator only, no noise",0.033676525813829516,0.0
+0.0,accumulator,identical,07,residual,0.013965298049032146,0.0
+0.0,accumulator,identical,07,deconv,0.10095388052026623,0.0
+0.0,accumulator,identical,07,epoch,-0.0007719937246043277,0.0
+0.0,accumulator,identical,08,"reference: accumulator only, no noise",0.06441318049319106,0.0
+0.0,accumulator,identical,08,residual,-0.14426827296996939,0.0
+0.0,accumulator,identical,08,deconv,0.01442162234320829,0.0
+0.0,accumulator,identical,08,epoch,-0.08340234798696597,0.0
+0.0,accumulator,identical,09,"reference: accumulator only, no noise",0.053679521057824704,0.0
+0.0,accumulator,identical,09,residual,-0.053467907342515206,0.0
+0.0,accumulator,identical,09,deconv,0.06413622622426461,0.0
+0.0,accumulator,identical,09,epoch,0.011552552015983755,0.0
+0.0,accumulator,identical,12,"reference: accumulator only, no noise",-0.02357409959330075,0.0
+0.0,accumulator,identical,12,residual,-0.18677678559560965,0.0
+0.0,accumulator,identical,12,deconv,0.108004187411441,0.0
+0.0,accumulator,identical,12,epoch,-0.1266335682598617,0.0
+0.0,accumulator,identical,13,"reference: accumulator only, no noise",0.18585532508622363,0.0
+0.0,accumulator,identical,13,residual,0.044347271643858065,0.0
+0.0,accumulator,identical,13,deconv,0.34480959373379205,0.0
+0.0,accumulator,identical,13,epoch,0.13005564800463854,0.0
+0.0,accumulator,identical,14,"reference: accumulator only, no noise",0.08481181952393112,0.0
+0.0,accumulator,identical,14,residual,0.1697228328328805,0.0
+0.0,accumulator,identical,14,deconv,0.4182099093505067,0.0
+0.0,accumulator,identical,14,epoch,0.2669323930062564,0.0
+0.0,accumulator,identical,16,"reference: accumulator only, no noise",0.030211176670564263,0.0
+0.0,accumulator,identical,16,residual,-0.07863893253262097,0.0
+0.0,accumulator,identical,16,deconv,0.22523544936062467,0.0
+0.0,accumulator,identical,16,epoch,-0.012408729927268004,0.0
+0.0,accumulator,identical,17,"reference: accumulator only, no noise",-0.0729588466818561,0.0
+0.0,accumulator,identical,17,residual,-0.2068752689175796,0.0
+0.0,accumulator,identical,17,deconv,-0.10336757526701447,0.0
+0.0,accumulator,identical,17,epoch,-0.21566678645681528,0.0
+0.0,accumulator,identical,18,"reference: accumulator only, no noise",-0.022130320997070674,0.0
+0.0,accumulator,identical,18,residual,-0.03480345963605402,0.0
+0.0,accumulator,identical,18,deconv,-0.19673720164016656,0.0
+0.0,accumulator,identical,18,epoch,-0.016923143728647408,0.0
+0.0,accumulator,identical,19,"reference: accumulator only, no noise",0.14559534473450061,0.0
+0.0,accumulator,identical,19,residual,-0.0011715623578394123,0.0
+0.0,accumulator,identical,19,deconv,-0.012810100484026846,0.0
+0.0,accumulator,identical,19,epoch,0.04258179396001343,0.0
+0.0,accumulator,identical,20,"reference: accumulator only, no noise",0.11362760624500277,0.0
+0.0,accumulator,identical,20,residual,0.10968959812663864,0.0
+0.0,accumulator,identical,20,deconv,0.38780680459851247,0.0
+0.0,accumulator,identical,20,epoch,0.20122733093421208,0.0
+0.0,accumulator,identical,21,"reference: accumulator only, no noise",0.03077129246279037,0.0
+0.0,accumulator,identical,21,residual,-0.07660265535682415,0.0
+0.0,accumulator,identical,21,deconv,-0.12732149551250035,0.0
+0.0,accumulator,identical,21,epoch,-0.024075459064345557,0.0
+0.0,accumulator,identical,22,"reference: accumulator only, no noise",0.21519100969908292,0.0
+0.0,accumulator,identical,22,residual,-0.17102343398506892,0.0
+0.0,accumulator,identical,22,deconv,0.05278199519859906,0.0
+0.0,accumulator,identical,22,epoch,-0.031054885122190356,0.0
+0.0,accumulator,identical,23,"reference: accumulator only, no noise",0.003527451781792386,0.0
+0.0,accumulator,identical,23,residual,-0.22413023327421097,0.0
+0.0,accumulator,identical,23,deconv,-0.35252644739276034,0.0
+0.0,accumulator,identical,23,epoch,-0.18560840162415282,0.0
+0.0,accumulator,identical,24,"reference: accumulator only, no noise",0.19830471691364393,0.0
+0.0,accumulator,identical,24,residual,0.08228317571169683,0.0
+0.0,accumulator,identical,24,deconv,0.4137840261197843,0.0
+0.0,accumulator,identical,24,epoch,0.21772468636250705,0.0
+0.0,accumulator,identical,25,"reference: accumulator only, no noise",0.18891659372376743,0.0
+0.0,accumulator,identical,25,residual,-0.1250522600339453,0.0
+0.0,accumulator,identical,25,deconv,0.027556567629089722,0.0
+0.0,accumulator,identical,25,epoch,0.024208336690065804,0.0
+0.0,accumulator,identical,26,"reference: accumulator only, no noise",0.07783061345364052,0.0
+0.0,accumulator,identical,26,residual,-0.06748366302349887,0.0
+0.0,accumulator,identical,26,deconv,0.03915545924105855,0.0
+0.0,accumulator,identical,26,epoch,0.0074413539185434275,0.0
+0.0,accumulator,identical,27,"reference: accumulator only, no noise",0.07746136963785145,0.0
+0.0,accumulator,identical,27,residual,-0.18631332602890285,0.0
+0.0,accumulator,identical,27,deconv,0.011521660902524032,0.0
+0.0,accumulator,identical,27,epoch,-0.1415484779319602,0.0
+0.0,accumulator,identical,28,"reference: accumulator only, no noise",0.08293208044718885,0.0
+0.0,accumulator,identical,28,residual,-0.15002539404822665,0.0
+0.0,accumulator,identical,28,deconv,0.05334645227149611,0.0
+0.0,accumulator,identical,28,epoch,-0.10022835639009285,0.0
+0.0,accumulator,identical,29,"reference: accumulator only, no noise",0.08404511150129353,0.0
+0.0,accumulator,identical,29,residual,-0.066333701812828,0.0
+0.0,accumulator,identical,29,deconv,0.21078172327931766,0.0
+0.0,accumulator,identical,29,epoch,0.010440012103418623,0.0
+0.0,accumulator,identical,30,"reference: accumulator only, no noise",-0.03856350558549977,0.0
+0.0,accumulator,identical,30,residual,-0.05525803623205253,0.0
+0.0,accumulator,identical,30,deconv,0.05597581393823686,0.0
+0.0,accumulator,identical,30,epoch,-0.0239958520565384,0.0
+0.0,accumulator,identical,31,"reference: accumulator only, no noise",0.21236574413378423,0.0
+0.0,accumulator,identical,31,residual,-0.018322255543237933,0.0
+0.0,accumulator,identical,31,deconv,-0.04050067652960278,0.0
+0.0,accumulator,identical,31,epoch,0.13412539603626467,0.0
+0.0,accumulator,identical,32,"reference: accumulator only, no noise",0.09132166931052392,0.0
+0.0,accumulator,identical,32,residual,-0.4083581134912491,0.0
+0.0,accumulator,identical,32,deconv,-0.03225928949324569,0.0
+0.0,accumulator,identical,32,epoch,-0.3256176025739111,0.0
+0.0,accumulator,identical,33,"reference: accumulator only, no noise",0.011963540732487789,0.0
+0.0,accumulator,identical,33,residual,-0.47940655679923294,0.0
+0.0,accumulator,identical,33,deconv,-0.3751214964781974,0.0
+0.0,accumulator,identical,33,epoch,-0.40788396604560356,0.0
+0.0,accumulator,identical,34,"reference: accumulator only, no noise",0.10544498425459954,0.0
+0.0,accumulator,identical,34,residual,0.2615999030304264,0.0
+0.0,accumulator,identical,34,deconv,0.4281721833881961,0.0
+0.0,accumulator,identical,34,epoch,0.357837427073797,0.0
+0.0,accumulator,identical,35,"reference: accumulator only, no noise",-0.01095751447220032,0.0
+0.0,accumulator,identical,35,residual,-0.19868478429220587,0.0
+0.0,accumulator,identical,35,deconv,-0.11871763000346748,0.0
+0.0,accumulator,identical,35,epoch,-0.14731322141136746,0.0
+0.0,accumulator,identical,36,"reference: accumulator only, no noise",0.18606547784473326,0.0
+0.0,accumulator,identical,36,residual,-0.07535934222288238,0.0
+0.0,accumulator,identical,36,deconv,0.04260602194502115,0.0
+0.0,accumulator,identical,36,epoch,0.017966671601967934,0.0
+0.0,accumulator,identical,37,"reference: accumulator only, no noise",0.13589461445416853,0.0
+0.0,accumulator,identical,37,residual,-0.4587948528072741,0.0
+0.0,accumulator,identical,37,deconv,-0.33912100073689005,0.0
+0.0,accumulator,identical,37,epoch,-0.37752158306213934,0.0
+0.0,accumulator,identical,38,"reference: accumulator only, no noise",0.07975153914463252,0.0
+0.0,accumulator,identical,38,residual,-0.060323897882547446,0.0
+0.0,accumulator,identical,38,deconv,0.14464099234715172,0.0
+0.0,accumulator,identical,38,epoch,0.037678583667861976,0.0
+0.0,accumulator,identical,39,"reference: accumulator only, no noise",0.2101778577851897,0.0
+0.0,accumulator,identical,39,residual,-0.13655142495858877,0.0
+0.0,accumulator,identical,39,deconv,0.20236424757047605,0.0
+0.0,accumulator,identical,39,epoch,0.007790797024235822,0.0
+0.0,accumulator,identical,40,"reference: accumulator only, no noise",0.14158486975846615,0.0
+0.0,accumulator,identical,40,residual,-0.0918874430362924,0.0
+0.0,accumulator,identical,40,deconv,0.2784792384295128,0.0
+0.0,accumulator,identical,40,epoch,-0.009280751345167855,0.0
+0.0,accumulator,identical,41,"reference: accumulator only, no noise",0.2613420780626617,0.0
+0.0,accumulator,identical,41,residual,-0.1450592994366315,0.0
+0.0,accumulator,identical,41,deconv,-0.07884030640645638,0.0
+0.0,accumulator,identical,41,epoch,-0.0999681734535791,0.0
+0.0,accumulator,identical,42,"reference: accumulator only, no noise",0.23828290121589887,0.0
+0.0,accumulator,identical,42,residual,0.023537522805732094,0.0
+0.0,accumulator,identical,42,deconv,0.26665008732921347,0.0
+0.0,accumulator,identical,42,epoch,0.16245670773201154,0.0
+0.0,accumulator,identical,43,"reference: accumulator only, no noise",0.03537012368134515,0.0
+0.0,accumulator,identical,43,residual,0.05530597292091753,0.0
+0.0,accumulator,identical,43,deconv,0.15692341743136168,0.0
+0.0,accumulator,identical,43,epoch,0.04833546517565801,0.0
+0.0,accumulator,identical,44,"reference: accumulator only, no noise",0.055896398822943685,0.0
+0.0,accumulator,identical,44,residual,0.015365963320491779,0.0
+0.0,accumulator,identical,44,deconv,0.07633715460856533,0.0
+0.0,accumulator,identical,44,epoch,0.0977947836297884,0.0
+0.0,accumulator,identical,46,"reference: accumulator only, no noise",0.07252945043468954,0.0
+0.0,accumulator,identical,46,residual,0.17222091661410452,0.0
+0.0,accumulator,identical,46,deconv,0.3749873512141678,0.0
+0.0,accumulator,identical,46,epoch,0.22565050425197547,0.0
+0.0,accumulator,identical,47,"reference: accumulator only, no noise",0.14290457037919047,0.0
+0.0,accumulator,identical,47,residual,0.33627334275663623,0.0
+0.0,accumulator,identical,47,deconv,0.48846917300443293,0.0
+0.0,accumulator,identical,47,epoch,0.40231417985003975,0.0
+0.0,accumulator,identical,50,"reference: accumulator only, no noise",0.0958191872237873,0.0
+0.0,accumulator,identical,50,residual,0.07172970635027988,0.0
+0.0,accumulator,identical,50,deconv,0.30614732827640784,0.0
+0.0,accumulator,identical,50,epoch,0.1682728462598228,0.0
+0.0,accumulator,identical,51,"reference: accumulator only, no noise",0.10821329112023981,0.0
+0.0,accumulator,identical,51,residual,0.2648681592457661,0.0
+0.0,accumulator,identical,51,deconv,0.4103667401474726,0.0
+0.0,accumulator,identical,51,epoch,0.3380966222807816,0.0
+0.0,accumulator,differs,05,"reference: accumulator only, no noise",0.922291027089281,1.0
+0.0,accumulator,differs,05,residual,1.0118707313612776,1.0
+0.0,accumulator,differs,05,deconv,1.1684590240221244,1.0
+0.0,accumulator,differs,05,epoch,1.3142696976424475,1.0
+0.0,accumulator,differs,07,"reference: accumulator only, no noise",0.7529742129186836,1.0
+0.0,accumulator,differs,07,residual,0.5234445313101962,1.0
+0.0,accumulator,differs,07,deconv,0.5577374255300167,1.0
+0.0,accumulator,differs,07,epoch,0.7808504307331912,1.0
+0.0,accumulator,differs,08,"reference: accumulator only, no noise",1.2843356856478125,1.0
+0.0,accumulator,differs,08,residual,0.6945474733801981,1.0
+0.0,accumulator,differs,08,deconv,0.697550280251789,1.0
+0.0,accumulator,differs,08,epoch,1.2296126494174668,1.0
+0.0,accumulator,differs,09,"reference: accumulator only, no noise",0.7113179166980931,1.0
+0.0,accumulator,differs,09,residual,0.4476007555917428,1.0
+0.0,accumulator,differs,09,deconv,0.2588744407314094,1.0
+0.0,accumulator,differs,09,epoch,0.6597782172771004,1.0
+0.0,accumulator,differs,12,"reference: accumulator only, no noise",0.6002874912715757,1.0
+0.0,accumulator,differs,12,residual,0.1740247409287159,1.0
+0.0,accumulator,differs,12,deconv,0.17255915114609682,1.0
+0.0,accumulator,differs,12,epoch,0.33866070590984676,1.0
+0.0,accumulator,differs,13,"reference: accumulator only, no noise",0.7504182115069173,1.0
+0.0,accumulator,differs,13,residual,0.5071767199076552,1.0
+0.0,accumulator,differs,13,deconv,0.24046846592997095,1.0
+0.0,accumulator,differs,13,epoch,0.7451229384079721,1.0
+0.0,accumulator,differs,14,"reference: accumulator only, no noise",0.39824102750158324,1.0
+0.0,accumulator,differs,14,residual,0.32015353500090826,1.0
+0.0,accumulator,differs,14,deconv,0.15789377313582692,1.0
+0.0,accumulator,differs,14,epoch,0.4713947805743272,1.0
+0.0,accumulator,differs,16,"reference: accumulator only, no noise",0.590299616122184,1.0
+0.0,accumulator,differs,16,residual,0.2738790749068988,1.0
+0.0,accumulator,differs,16,deconv,0.3404011608587774,1.0
+0.0,accumulator,differs,16,epoch,0.42675592729797596,1.0
+0.0,accumulator,differs,17,"reference: accumulator only, no noise",0.9551324408019529,1.0
+0.0,accumulator,differs,17,residual,0.8814282280210439,1.0
+0.0,accumulator,differs,17,deconv,0.9494170232359951,1.0
+0.0,accumulator,differs,17,epoch,1.2706725365606142,1.0
+0.0,accumulator,differs,18,"reference: accumulator only, no noise",0.626905013056783,1.0
+0.0,accumulator,differs,18,residual,0.6936164875744957,1.0
+0.0,accumulator,differs,18,deconv,0.46217777489190226,1.0
+0.0,accumulator,differs,18,epoch,0.9012967105000117,1.0
+0.0,accumulator,differs,19,"reference: accumulator only, no noise",1.0268250370644447,1.0
+0.0,accumulator,differs,19,residual,0.7852174418711263,1.0
+0.0,accumulator,differs,19,deconv,0.7198323904162465,1.0
+0.0,accumulator,differs,19,epoch,1.1487020503464038,1.0
+0.0,accumulator,differs,20,"reference: accumulator only, no noise",0.6762338121221446,1.0
+0.0,accumulator,differs,20,residual,0.5375915283230571,1.0
+0.0,accumulator,differs,20,deconv,0.3772095322760242,1.0
+0.0,accumulator,differs,20,epoch,0.732209426636399,1.0
+0.0,accumulator,differs,21,"reference: accumulator only, no noise",0.4765119279900651,1.0
+0.0,accumulator,differs,21,residual,0.23446265645555328,1.0
+0.0,accumulator,differs,21,deconv,-0.04150151998091193,1.0
+0.0,accumulator,differs,21,epoch,0.36380130123332843,1.0
+0.0,accumulator,differs,22,"reference: accumulator only, no noise",0.9868967757773738,1.0
+0.0,accumulator,differs,22,residual,0.892442032492684,1.0
+0.0,accumulator,differs,22,deconv,0.760159177282823,1.0
+0.0,accumulator,differs,22,epoch,1.2262832160565478,1.0
+0.0,accumulator,differs,23,"reference: accumulator only, no noise",1.0976232382271667,1.0
+0.0,accumulator,differs,23,residual,0.7508319965241118,1.0
+0.0,accumulator,differs,23,deconv,0.5362755112682231,1.0
+0.0,accumulator,differs,23,epoch,1.1053226831516867,1.0
+0.0,accumulator,differs,24,"reference: accumulator only, no noise",0.5978304406476995,1.0
+0.0,accumulator,differs,24,residual,0.33205102431967376,1.0
+0.0,accumulator,differs,24,deconv,-0.01749390491889356,1.0
+0.0,accumulator,differs,24,epoch,0.5077849257741195,1.0
+0.0,accumulator,differs,25,"reference: accumulator only, no noise",0.6133517469447377,1.0
+0.0,accumulator,differs,25,residual,0.12197815665924157,1.0
+0.0,accumulator,differs,25,deconv,-0.19728208445555123,1.0
+0.0,accumulator,differs,25,epoch,0.26811643794344087,1.0
+0.0,accumulator,differs,26,"reference: accumulator only, no noise",0.8040208107867796,1.0
+0.0,accumulator,differs,26,residual,0.6670229899526461,1.0
+0.0,accumulator,differs,26,deconv,0.6301549982179602,1.0
+0.0,accumulator,differs,26,epoch,0.9237435127700533,1.0
+0.0,accumulator,differs,27,"reference: accumulator only, no noise",0.23973490548172524,1.0
+0.0,accumulator,differs,27,residual,0.09248475358336906,1.0
+0.0,accumulator,differs,27,deconv,0.05878946077384702,1.0
+0.0,accumulator,differs,27,epoch,0.16281388187791268,1.0
+0.0,accumulator,differs,28,"reference: accumulator only, no noise",1.1244887794040777,1.0
+0.0,accumulator,differs,28,residual,0.47890668562767397,1.0
+0.0,accumulator,differs,28,deconv,0.343524843526333,1.0
+0.0,accumulator,differs,28,epoch,0.8758074824972181,1.0
+0.0,accumulator,differs,29,"reference: accumulator only, no noise",0.7374474272642197,1.0
+0.0,accumulator,differs,29,residual,0.47483355471088506,1.0
+0.0,accumulator,differs,29,deconv,0.4027761324963774,1.0
+0.0,accumulator,differs,29,epoch,0.7009253254379746,1.0
+0.0,accumulator,differs,30,"reference: accumulator only, no noise",0.7510022100203346,1.0
+0.0,accumulator,differs,30,residual,0.4695997852461934,1.0
+0.0,accumulator,differs,30,deconv,0.5611100313151685,1.0
+0.0,accumulator,differs,30,epoch,0.687236384783905,1.0
+0.0,accumulator,differs,31,"reference: accumulator only, no noise",0.7073166733515368,1.0
+0.0,accumulator,differs,31,residual,0.7384579226030981,1.0
+0.0,accumulator,differs,31,deconv,0.5885047840002743,1.0
+0.0,accumulator,differs,31,epoch,0.9517573237822656,1.0
+0.0,accumulator,differs,32,"reference: accumulator only, no noise",1.3321594889924993,1.0
+0.0,accumulator,differs,32,residual,0.5356638017669805,1.0
+0.0,accumulator,differs,32,deconv,0.3294602730925862,1.0
+0.0,accumulator,differs,32,epoch,0.9926116243376941,1.0
+0.0,accumulator,differs,33,"reference: accumulator only, no noise",1.052409741507631,1.0
+0.0,accumulator,differs,33,residual,0.6958486409302981,1.0
+0.0,accumulator,differs,33,deconv,0.7183060223113721,1.0
+0.0,accumulator,differs,33,epoch,1.0760185972226675,1.0
+0.0,accumulator,differs,34,"reference: accumulator only, no noise",0.5444492812087104,1.0
+0.0,accumulator,differs,34,residual,0.4532646331253022,1.0
+0.0,accumulator,differs,34,deconv,-0.049862209992436006,1.0
+0.0,accumulator,differs,34,epoch,0.6154358668433441,1.0
+0.0,accumulator,differs,35,"reference: accumulator only, no noise",0.7481637428319261,1.0
+0.0,accumulator,differs,35,residual,0.2546372706091919,1.0
+0.0,accumulator,differs,35,deconv,0.21564100405364572,1.0
+0.0,accumulator,differs,35,epoch,0.47590885839390645,1.0
+0.0,accumulator,differs,36,"reference: accumulator only, no noise",0.939296271049204,1.0
+0.0,accumulator,differs,36,residual,0.7031744399379968,1.0
+0.0,accumulator,differs,36,deconv,0.3866238151561067,1.0
+0.0,accumulator,differs,36,epoch,1.0927492328933806,1.0
+0.0,accumulator,differs,37,"reference: accumulator only, no noise",0.7871980621298622,1.0
+0.0,accumulator,differs,37,residual,0.3180601876684756,1.0
+0.0,accumulator,differs,37,deconv,0.19828598236406206,1.0
+0.0,accumulator,differs,37,epoch,0.5539129231611022,1.0
+0.0,accumulator,differs,38,"reference: accumulator only, no noise",0.823632678199508,1.0
+0.0,accumulator,differs,38,residual,0.11999758430685292,1.0
+0.0,accumulator,differs,38,deconv,-0.19222687183143672,1.0
+0.0,accumulator,differs,38,epoch,0.3254886988775782,1.0
+0.0,accumulator,differs,39,"reference: accumulator only, no noise",0.6394399136756317,1.0
+0.0,accumulator,differs,39,residual,0.45249984932473925,1.0
+0.0,accumulator,differs,39,deconv,0.27413948216763395,1.0
+0.0,accumulator,differs,39,epoch,0.6577387169032289,1.0
+0.0,accumulator,differs,40,"reference: accumulator only, no noise",1.1587779992494394,1.0
+0.0,accumulator,differs,40,residual,0.7029802440794858,1.0
+0.0,accumulator,differs,40,deconv,0.42329606568884953,1.0
+0.0,accumulator,differs,40,epoch,1.10940940589424,1.0
+0.0,accumulator,differs,41,"reference: accumulator only, no noise",0.4664446657754039,1.0
+0.0,accumulator,differs,41,residual,0.08604782821339094,1.0
+0.0,accumulator,differs,41,deconv,-0.12717026970215534,1.0
+0.0,accumulator,differs,41,epoch,0.19732779088435426,1.0
+0.0,accumulator,differs,42,"reference: accumulator only, no noise",1.2179554867192628,1.0
+0.0,accumulator,differs,42,residual,0.6417772048705149,1.0
+0.0,accumulator,differs,42,deconv,0.619334506927317,1.0
+0.0,accumulator,differs,42,epoch,1.1397315324109218,1.0
+0.0,accumulator,differs,43,"reference: accumulator only, no noise",0.8865370726545209,1.0
+0.0,accumulator,differs,43,residual,0.5141565286455679,1.0
+0.0,accumulator,differs,43,deconv,0.4712006966228697,1.0
+0.0,accumulator,differs,43,epoch,0.8260429861051206,1.0
+0.0,accumulator,differs,44,"reference: accumulator only, no noise",0.6625911941418653,1.0
+0.0,accumulator,differs,44,residual,0.32083491618710974,1.0
+0.0,accumulator,differs,44,deconv,0.26688092676097863,1.0
+0.0,accumulator,differs,44,epoch,0.5459322231395355,1.0
+0.0,accumulator,differs,46,"reference: accumulator only, no noise",1.1899074291205753,1.0
+0.0,accumulator,differs,46,residual,0.5186392865463507,1.0
+0.0,accumulator,differs,46,deconv,0.28955727428336897,1.0
+0.0,accumulator,differs,46,epoch,1.0182617825631184,1.0
+0.0,accumulator,differs,47,"reference: accumulator only, no noise",0.5857505508407512,1.0
+0.0,accumulator,differs,47,residual,0.5411963185333705,1.0
+0.0,accumulator,differs,47,deconv,0.4872558368828091,1.0
+0.0,accumulator,differs,47,epoch,0.7270141087913563,1.0
+0.0,accumulator,differs,50,"reference: accumulator only, no noise",0.6088067654113389,1.0
+0.0,accumulator,differs,50,residual,0.23250701096954093,1.0
+0.0,accumulator,differs,50,deconv,0.11617289162409095,1.0
+0.0,accumulator,differs,50,epoch,0.4098066674138522,1.0
+0.0,accumulator,differs,51,"reference: accumulator only, no noise",0.30222772596944886,1.0
+0.0,accumulator,differs,51,residual,0.4823593368532453,1.0
+0.0,accumulator,differs,51,deconv,0.47693891268740113,1.0
+0.0,accumulator,differs,51,epoch,0.5587251940772998,1.0
+0.5,components,identical,05,"reference: accumulator only, no noise",0.02390545264172904,0.0
+0.5,components,identical,05,residual,-0.015275759179729707,0.0
+0.5,components,identical,05,deconv,0.48535825263336396,0.0
+0.5,components,identical,05,epoch,-0.16939111716454586,0.0
+0.5,components,identical,07,"reference: accumulator only, no noise",0.033676525813829516,0.0
+0.5,components,identical,07,residual,0.013965256013563188,0.0
+0.5,components,identical,07,deconv,0.10121071980143143,0.0
+0.5,components,identical,07,epoch,-0.026403984028432487,0.0
+0.5,components,identical,08,"reference: accumulator only, no noise",0.06441318049319106,0.0
+0.5,components,identical,08,residual,-0.14426773561953019,0.0
+0.5,components,identical,08,deconv,0.014396354307504005,0.0
+0.5,components,identical,08,epoch,-0.21728524227856408,0.0
+0.5,components,identical,09,"reference: accumulator only, no noise",0.053679521057824704,0.0
+0.5,components,identical,09,residual,-0.053469164191078444,0.0
+0.5,components,identical,09,deconv,0.06420296599902293,0.0
+0.5,components,identical,09,epoch,-0.01690650289771531,0.0
+0.5,components,identical,12,"reference: accumulator only, no noise",-0.02357409959330075,0.0
+0.5,components,identical,12,residual,-0.18677503494721343,0.0
+0.5,components,identical,12,deconv,0.1079508882500717,0.0
+0.5,components,identical,12,epoch,-0.11367554807153406,0.0
+0.5,components,identical,13,"reference: accumulator only, no noise",0.18585532508622363,0.0
+0.5,components,identical,13,residual,0.044336026060613425,0.0
+0.5,components,identical,13,deconv,0.3449585774475805,0.0
+0.5,components,identical,13,epoch,-0.2833928850704945,0.0
+0.5,components,identical,14,"reference: accumulator only, no noise",0.08481181952393112,0.0
+0.5,components,identical,14,residual,0.16972571250191415,0.0
+0.5,components,identical,14,deconv,0.4181612877482166,0.0
+0.5,components,identical,14,epoch,0.13747920506879316,0.0
+0.5,components,identical,16,"reference: accumulator only, no noise",0.030211176670564263,0.0
+0.5,components,identical,16,residual,-0.07863440684673505,0.0
+0.5,components,identical,16,deconv,0.22521314877976528,0.0
+0.5,components,identical,16,epoch,0.01756338455560935,0.0
+0.5,components,identical,17,"reference: accumulator only, no noise",-0.0729588466818561,0.0
+0.5,components,identical,17,residual,-0.2068732524047858,0.0
+0.5,components,identical,17,deconv,-0.10320470720301306,0.0
+0.5,components,identical,17,epoch,-0.24088637072766364,0.0
+0.5,components,identical,18,"reference: accumulator only, no noise",-0.022130320997070674,0.0
+0.5,components,identical,18,residual,-0.03480225350443405,0.0
+0.5,components,identical,18,deconv,-0.19729390076823647,0.0
+0.5,components,identical,18,epoch,-0.040663650838290245,0.0
+0.5,components,identical,19,"reference: accumulator only, no noise",0.14559534473450061,0.0
+0.5,components,identical,19,residual,-0.0011683412113918283,0.0
+0.5,components,identical,19,deconv,-0.01126227730619689,0.0
+0.5,components,identical,19,epoch,-0.22118502046704752,0.0
+0.5,components,identical,20,"reference: accumulator only, no noise",0.11362760624500277,0.0
+0.5,components,identical,20,residual,0.10968695344540107,0.0
+0.5,components,identical,20,deconv,0.3878192870075505,0.0
+0.5,components,identical,20,epoch,-0.13699638375828563,0.0
+0.5,components,identical,21,"reference: accumulator only, no noise",0.03077129246279037,0.0
+0.5,components,identical,21,residual,-0.07660271103797289,0.0
+0.5,components,identical,21,deconv,-0.12733342267364983,0.0
+0.5,components,identical,21,epoch,-0.06611016088065955,0.0
+0.5,components,identical,22,"reference: accumulator only, no noise",0.21519100969908292,0.0
+0.5,components,identical,22,residual,-0.17103600340670594,0.0
+0.5,components,identical,22,deconv,0.05275087907463963,0.0
+0.5,components,identical,22,epoch,-0.5908397934537328,0.0
+0.5,components,identical,23,"reference: accumulator only, no noise",0.003527451781792386,0.0
+0.5,components,identical,23,residual,-0.22412876227160733,0.0
+0.5,components,identical,23,deconv,-0.35239556468055694,0.0
+0.5,components,identical,23,epoch,-0.27384805826457753,0.0
+0.5,components,identical,24,"reference: accumulator only, no noise",0.19830471691364393,0.0
+0.5,components,identical,24,residual,0.08229516716839032,0.0
+0.5,components,identical,24,deconv,0.41368815845095674,0.0
+0.5,components,identical,24,epoch,0.004243083946197994,0.0
+0.5,components,identical,25,"reference: accumulator only, no noise",0.18891659372376743,0.0
+0.5,components,identical,25,residual,-0.12505080056383527,0.0
+0.5,components,identical,25,deconv,0.027908810148683676,0.0
+0.5,components,identical,25,epoch,-0.002231246015741111,0.0
+0.5,components,identical,26,"reference: accumulator only, no noise",0.07783061345364052,0.0
+0.5,components,identical,26,residual,-0.06748293122483295,0.0
+0.5,components,identical,26,deconv,0.039237308418542866,0.0
+0.5,components,identical,26,epoch,-0.15724204000081538,0.0
+0.5,components,identical,27,"reference: accumulator only, no noise",0.07746136963785145,0.0
+0.5,components,identical,27,residual,-0.18631395114302265,0.0
+0.5,components,identical,27,deconv,0.011478443037780787,0.0
+0.5,components,identical,27,epoch,-0.26283554909639084,0.0
+0.5,components,identical,28,"reference: accumulator only, no noise",0.08293208044718885,0.0
+0.5,components,identical,28,residual,-0.15003082004330495,0.0
+0.5,components,identical,28,deconv,0.05330265005459975,0.0
+0.5,components,identical,28,epoch,-0.2980063169903605,0.0
+0.5,components,identical,29,"reference: accumulator only, no noise",0.08404511150129353,0.0
+0.5,components,identical,29,residual,-0.06632544321985676,0.0
+0.5,components,identical,29,deconv,0.21082156032587554,0.0
+0.5,components,identical,29,epoch,-0.012308910584694124,0.0
+0.5,components,identical,30,"reference: accumulator only, no noise",-0.03856350558549977,0.0
+0.5,components,identical,30,residual,-0.0552578959256368,0.0
+0.5,components,identical,30,deconv,0.05604917937769438,0.0
+0.5,components,identical,30,epoch,-0.028702826516131447,0.0
+0.5,components,identical,31,"reference: accumulator only, no noise",0.21236574413378423,0.0
+0.5,components,identical,31,residual,-0.018323952418697425,0.0
+0.5,components,identical,31,deconv,-0.03970850659395955,0.0
+0.5,components,identical,31,epoch,0.01853508209638908,0.0
+0.5,components,identical,32,"reference: accumulator only, no noise",0.09132166931052392,0.0
+0.5,components,identical,32,residual,-0.40835478091023447,0.0
+0.5,components,identical,32,deconv,-0.03177536037046871,0.0
+0.5,components,identical,32,epoch,-0.4945932675307321,0.0
+0.5,components,identical,33,"reference: accumulator only, no noise",0.011963540732487789,0.0
+0.5,components,identical,33,residual,-0.47940228061483275,0.0
+0.5,components,identical,33,deconv,-0.3755444583394782,0.0
+0.5,components,identical,33,epoch,-0.5494519998594808,0.0
+0.5,components,identical,34,"reference: accumulator only, no noise",0.10544498425459954,0.0
+0.5,components,identical,34,residual,0.26158249273136747,0.0
+0.5,components,identical,34,deconv,0.42787215771365017,0.0
+0.5,components,identical,34,epoch,-0.806519144042734,0.0
+0.5,components,identical,35,"reference: accumulator only, no noise",-0.01095751447220032,0.0
+0.5,components,identical,35,residual,-0.19868558142455173,0.0
+0.5,components,identical,35,deconv,-0.1187168860394404,0.0
+0.5,components,identical,35,epoch,-0.20959499979584628,0.0
+0.5,components,identical,36,"reference: accumulator only, no noise",0.18606547784473326,0.0
+0.5,components,identical,36,residual,-0.07535848465514336,0.0
+0.5,components,identical,36,deconv,0.04257487420070451,0.0
+0.5,components,identical,36,epoch,-0.2900408596357704,0.0
+0.5,components,identical,37,"reference: accumulator only, no noise",0.13589461445416853,0.0
+0.5,components,identical,37,residual,-0.45879566421248563,0.0
+0.5,components,identical,37,deconv,-0.33950133762627543,0.0
+0.5,components,identical,37,epoch,-0.3987350842619924,0.0
+0.5,components,identical,38,"reference: accumulator only, no noise",0.07975153914463252,0.0
+0.5,components,identical,38,residual,-0.06032421098760747,0.0
+0.5,components,identical,38,deconv,0.14464819121783248,0.0
+0.5,components,identical,38,epoch,-0.16648286307393698,0.0
+0.5,components,identical,39,"reference: accumulator only, no noise",0.2101778577851897,0.0
+0.5,components,identical,39,residual,-0.13654286450719966,0.0
+0.5,components,identical,39,deconv,0.2024734940151898,0.0
+0.5,components,identical,39,epoch,0.06429161189909857,0.0
+0.5,components,identical,40,"reference: accumulator only, no noise",0.14158486975846615,0.0
+0.5,components,identical,40,residual,-0.09188978549026776,0.0
+0.5,components,identical,40,deconv,0.2784184840097042,0.0
+0.5,components,identical,40,epoch,-0.1777667676411839,0.0
+0.5,components,identical,41,"reference: accumulator only, no noise",0.2613420780626617,0.0
+0.5,components,identical,41,residual,-0.14508301280203467,0.0
+0.5,components,identical,41,deconv,-0.07982450648685124,0.0
+0.5,components,identical,41,epoch,0.00042137314759325484,0.0
+0.5,components,identical,42,"reference: accumulator only, no noise",0.23828290121589887,0.0
+0.5,components,identical,42,residual,0.023547061313994262,0.0
+0.5,components,identical,42,deconv,0.26683388426581184,0.0
+0.5,components,identical,42,epoch,0.19649506008084727,0.0
+0.5,components,identical,43,"reference: accumulator only, no noise",0.03537012368134515,0.0
+0.5,components,identical,43,residual,0.05530190974649187,0.0
+0.5,components,identical,43,deconv,0.157021084242197,0.0
+0.5,components,identical,43,epoch,0.03481707104242724,0.0
+0.5,components,identical,44,"reference: accumulator only, no noise",0.055896398822943685,0.0
+0.5,components,identical,44,residual,0.015371893733611067,0.0
+0.5,components,identical,44,deconv,0.07656540720802209,0.0
+0.5,components,identical,44,epoch,-0.023534636112288267,0.0
+0.5,components,identical,46,"reference: accumulator only, no noise",0.07252945043468954,0.0
+0.5,components,identical,46,residual,0.17222359672741205,0.0
+0.5,components,identical,46,deconv,0.3747684980938015,0.0
+0.5,components,identical,46,epoch,0.21480926597954123,0.0
+0.5,components,identical,47,"reference: accumulator only, no noise",0.14290457037919047,0.0
+0.5,components,identical,47,residual,0.33628309075164414,0.0
+0.5,components,identical,47,deconv,0.48867475529218224,0.0
+0.5,components,identical,47,epoch,0.08739518170980373,0.0
+0.5,components,identical,50,"reference: accumulator only, no noise",0.0958191872237873,0.0
+0.5,components,identical,50,residual,0.07172980945394983,0.0
+0.5,components,identical,50,deconv,0.3058805219186312,0.0
+0.5,components,identical,50,epoch,0.21422631936062173,0.0
+0.5,components,identical,51,"reference: accumulator only, no noise",0.10821329112023981,0.0
+0.5,components,identical,51,residual,0.26487359767823615,0.0
+0.5,components,identical,51,deconv,0.4103522916418396,0.0
+0.5,components,identical,51,epoch,0.16274491700808277,0.0
+0.5,components,differs,05,"reference: accumulator only, no noise",0.922291027089281,1.0
+0.5,components,differs,05,residual,1.0118677172277737,1.0
+0.5,components,differs,05,deconv,1.1681007295819217,1.0
+0.5,components,differs,05,epoch,1.0485157843073896,1.0
+0.5,components,differs,07,"reference: accumulator only, no noise",0.7529742129186836,1.0
+0.5,components,differs,07,residual,0.5234443312383701,1.0
+0.5,components,differs,07,deconv,0.5576551105789868,1.0
+0.5,components,differs,07,epoch,0.893934326438987,1.0
+0.5,components,differs,08,"reference: accumulator only, no noise",1.2843356856478125,1.0
+0.5,components,differs,08,residual,0.6945501969245924,1.0
+0.5,components,differs,08,deconv,0.69749438782357,1.0
+0.5,components,differs,08,epoch,0.8656037917916155,1.0
+0.5,components,differs,09,"reference: accumulator only, no noise",0.7113179166980931,1.0
+0.5,components,differs,09,residual,0.44760549711744413,1.0
+0.5,components,differs,09,deconv,0.25857739847809175,1.0
+0.5,components,differs,09,epoch,0.668585570205576,1.0
+0.5,components,differs,12,"reference: accumulator only, no noise",0.6002874912715757,1.0
+0.5,components,differs,12,residual,0.17402893206897177,1.0
+0.5,components,differs,12,deconv,0.17251257999490863,1.0
+0.5,components,differs,12,epoch,0.38503522164201587,1.0
+0.5,components,differs,13,"reference: accumulator only, no noise",0.7504182115069173,1.0
+0.5,components,differs,13,residual,0.5071732559191742,1.0
+0.5,components,differs,13,deconv,0.24038245013293802,1.0
+0.5,components,differs,13,epoch,0.35583901076312063,1.0
+0.5,components,differs,14,"reference: accumulator only, no noise",0.39824102750158324,1.0
+0.5,components,differs,14,residual,0.320158653730821,1.0
+0.5,components,differs,14,deconv,0.1574176105272688,1.0
+0.5,components,differs,14,epoch,0.6213163643733534,1.0
+0.5,components,differs,16,"reference: accumulator only, no noise",0.590299616122184,1.0
+0.5,components,differs,16,residual,0.27387735867566637,1.0
+0.5,components,differs,16,deconv,0.3412482021292474,1.0
+0.5,components,differs,16,epoch,0.747709065599011,1.0
+0.5,components,differs,17,"reference: accumulator only, no noise",0.9551324408019529,1.0
+0.5,components,differs,17,residual,0.881417041964296,1.0
+0.5,components,differs,17,deconv,0.9493220789642038,1.0
+0.5,components,differs,17,epoch,1.052691444331717,1.0
+0.5,components,differs,18,"reference: accumulator only, no noise",0.626905013056783,1.0
+0.5,components,differs,18,residual,0.6936147340052634,1.0
+0.5,components,differs,18,deconv,0.4615746886094795,1.0
+0.5,components,differs,18,epoch,0.9431015806963384,1.0
+0.5,components,differs,19,"reference: accumulator only, no noise",1.0268250370644447,1.0
+0.5,components,differs,19,residual,0.7852133153697431,1.0
+0.5,components,differs,19,deconv,0.7195517573139862,1.0
+0.5,components,differs,19,epoch,0.8533132953212912,1.0
+0.5,components,differs,20,"reference: accumulator only, no noise",0.6762338121221446,1.0
+0.5,components,differs,20,residual,0.53758757265335,1.0
+0.5,components,differs,20,deconv,0.3772239603550481,1.0
+0.5,components,differs,20,epoch,0.4647647264861439,1.0
+0.5,components,differs,21,"reference: accumulator only, no noise",0.4765119279900651,1.0
+0.5,components,differs,21,residual,0.23446010355757962,1.0
+0.5,components,differs,21,deconv,-0.04158344052565735,1.0
+0.5,components,differs,21,epoch,0.3303931159750454,1.0
+0.5,components,differs,22,"reference: accumulator only, no noise",0.9868967757773738,1.0
+0.5,components,differs,22,residual,0.8924423157942686,1.0
+0.5,components,differs,22,deconv,0.7610117231495104,1.0
+0.5,components,differs,22,epoch,0.8196184775044598,1.0
+0.5,components,differs,23,"reference: accumulator only, no noise",1.0976232382271667,1.0
+0.5,components,differs,23,residual,0.7508298145102369,1.0
+0.5,components,differs,23,deconv,0.5363196394992691,1.0
+0.5,components,differs,23,epoch,0.9034809619630637,1.0
+0.5,components,differs,24,"reference: accumulator only, no noise",0.5978304406476995,1.0
+0.5,components,differs,24,residual,0.3320535235863194,1.0
+0.5,components,differs,24,deconv,-0.01684321936739873,1.0
+0.5,components,differs,24,epoch,0.5312756605729794,1.0
+0.5,components,differs,25,"reference: accumulator only, no noise",0.6133517469447377,1.0
+0.5,components,differs,25,residual,0.12197563859606435,1.0
+0.5,components,differs,25,deconv,-0.19719590239719872,1.0
+0.5,components,differs,25,epoch,0.33977434922927563,1.0
+0.5,components,differs,26,"reference: accumulator only, no noise",0.8040208107867796,1.0
+0.5,components,differs,26,residual,0.6670232206378607,1.0
+0.5,components,differs,26,deconv,0.6300116114782269,1.0
+0.5,components,differs,26,epoch,0.8491752989132101,1.0
+0.5,components,differs,27,"reference: accumulator only, no noise",0.23973490548172524,1.0
+0.5,components,differs,27,residual,0.09249468176532324,1.0
+0.5,components,differs,27,deconv,0.05869823448526201,1.0
+0.5,components,differs,27,epoch,0.09828999026424058,1.0
+0.5,components,differs,28,"reference: accumulator only, no noise",1.1244887794040777,1.0
+0.5,components,differs,28,residual,0.47887104993521207,1.0
+0.5,components,differs,28,deconv,0.3434093877935585,1.0
+0.5,components,differs,28,epoch,0.4579182433043226,1.0
+0.5,components,differs,29,"reference: accumulator only, no noise",0.7374474272642197,1.0
+0.5,components,differs,29,residual,0.47483270394626187,1.0
+0.5,components,differs,29,deconv,0.40246775697534126,1.0
+0.5,components,differs,29,epoch,0.5965256417185892,1.0
+0.5,components,differs,30,"reference: accumulator only, no noise",0.7510022100203346,1.0
+0.5,components,differs,30,residual,0.4695946147224132,1.0
+0.5,components,differs,30,deconv,0.5608686108857591,1.0
+0.5,components,differs,30,epoch,0.6578569241869081,1.0
+0.5,components,differs,31,"reference: accumulator only, no noise",0.7073166733515368,1.0
+0.5,components,differs,31,residual,0.7384583233651825,1.0
+0.5,components,differs,31,deconv,0.5882426488288189,1.0
+0.5,components,differs,31,epoch,0.8181722483701398,1.0
+0.5,components,differs,32,"reference: accumulator only, no noise",1.3321594889924993,1.0
+0.5,components,differs,32,residual,0.5356640702190347,1.0
+0.5,components,differs,32,deconv,0.32833730699332286,1.0
+0.5,components,differs,32,epoch,1.1673366203812112,1.0
+0.5,components,differs,33,"reference: accumulator only, no noise",1.052409741507631,1.0
+0.5,components,differs,33,residual,0.695852155710779,1.0
+0.5,components,differs,33,deconv,0.7180399969062704,1.0
+0.5,components,differs,33,epoch,0.6871023375951201,1.0
+0.5,components,differs,34,"reference: accumulator only, no noise",0.5444492812087104,1.0
+0.5,components,differs,34,residual,0.4532589502223323,1.0
+0.5,components,differs,34,deconv,-0.04990950432107243,1.0
+0.5,components,differs,34,epoch,0.017065098603722923,1.0
+0.5,components,differs,35,"reference: accumulator only, no noise",0.7481637428319261,1.0
+0.5,components,differs,35,residual,0.2546381437599603,1.0
+0.5,components,differs,35,deconv,0.21547754242511816,1.0
+0.5,components,differs,35,epoch,0.5084692335476496,1.0
+0.5,components,differs,36,"reference: accumulator only, no noise",0.939296271049204,1.0
+0.5,components,differs,36,residual,0.7031681017211924,1.0
+0.5,components,differs,36,deconv,0.38660436293425543,1.0
+0.5,components,differs,36,epoch,0.8584584987701783,1.0
+0.5,components,differs,37,"reference: accumulator only, no noise",0.7871980621298622,1.0
+0.5,components,differs,37,residual,0.3180630692246021,1.0
+0.5,components,differs,37,deconv,0.198834138626392,1.0
+0.5,components,differs,37,epoch,0.4808248072178621,1.0
+0.5,components,differs,38,"reference: accumulator only, no noise",0.823632678199508,1.0
+0.5,components,differs,38,residual,0.119996744583682,1.0
+0.5,components,differs,38,deconv,-0.19232585394248514,1.0
+0.5,components,differs,38,epoch,0.2571729867473383,1.0
+0.5,components,differs,39,"reference: accumulator only, no noise",0.6394399136756317,1.0
+0.5,components,differs,39,residual,0.4525005379682609,1.0
+0.5,components,differs,39,deconv,0.27432557284695175,1.0
+0.5,components,differs,39,epoch,0.9425393331088512,1.0
+0.5,components,differs,40,"reference: accumulator only, no noise",1.1587779992494394,1.0
+0.5,components,differs,40,residual,0.7029779258014293,1.0
+0.5,components,differs,40,deconv,0.4225376983953068,1.0
+0.5,components,differs,40,epoch,0.946864329255543,1.0
+0.5,components,differs,41,"reference: accumulator only, no noise",0.4664446657754039,1.0
+0.5,components,differs,41,residual,0.08602874042238155,1.0
+0.5,components,differs,41,deconv,-0.12647203630413578,1.0
+0.5,components,differs,41,epoch,0.2816437685869819,1.0
+0.5,components,differs,42,"reference: accumulator only, no noise",1.2179554867192628,1.0
+0.5,components,differs,42,residual,0.6417753399919295,1.0
+0.5,components,differs,42,deconv,0.619490388324775,1.0
+0.5,components,differs,42,epoch,1.1885917799694952,1.0
+0.5,components,differs,43,"reference: accumulator only, no noise",0.8865370726545209,1.0
+0.5,components,differs,43,residual,0.5141606859188248,1.0
+0.5,components,differs,43,deconv,0.47107722174233285,1.0
+0.5,components,differs,43,epoch,0.5947667408859063,1.0
+0.5,components,differs,44,"reference: accumulator only, no noise",0.6625911941418653,1.0
+0.5,components,differs,44,residual,0.3208338047943245,1.0
+0.5,components,differs,44,deconv,0.266874685382918,1.0
+0.5,components,differs,44,epoch,0.5827836167567658,1.0
+0.5,components,differs,46,"reference: accumulator only, no noise",1.1899074291205753,1.0
+0.5,components,differs,46,residual,0.5186409085537426,1.0
+0.5,components,differs,46,deconv,0.2892975537582252,1.0
+0.5,components,differs,46,epoch,1.246832929234438,1.0
+0.5,components,differs,47,"reference: accumulator only, no noise",0.5857505508407512,1.0
+0.5,components,differs,47,residual,0.5411963576226675,1.0
+0.5,components,differs,47,deconv,0.48696409208348035,1.0
+0.5,components,differs,47,epoch,0.6394603227884659,1.0
+0.5,components,differs,50,"reference: accumulator only, no noise",0.6088067654113389,1.0
+0.5,components,differs,50,residual,0.232505041742986,1.0
+0.5,components,differs,50,deconv,0.1158852985344113,1.0
+0.5,components,differs,50,epoch,0.81189504734905,1.0
+0.5,components,differs,51,"reference: accumulator only, no noise",0.30222772596944886,1.0
+0.5,components,differs,51,residual,0.48235855667209054,1.0
+0.5,components,differs,51,deconv,0.47692145850972184,1.0
+0.5,components,differs,51,epoch,0.5317608345113933,1.0
+1.0,components,identical,05,"reference: accumulator only, no noise",0.02390545264172904,0.0
+1.0,components,identical,05,residual,-0.015274635281918024,0.0
+1.0,components,identical,05,deconv,0.4853330594180008,0.0
+1.0,components,identical,05,epoch,-0.4234076082819997,0.0
+1.0,components,identical,07,"reference: accumulator only, no noise",0.033676525813829516,0.0
+1.0,components,identical,07,residual,0.01396472522137466,0.0
+1.0,components,identical,07,deconv,0.1014232364585713,0.0
+1.0,components,identical,07,epoch,-0.05203597433225723,0.0
+1.0,components,identical,08,"reference: accumulator only, no noise",0.06441318049319106,0.0
+1.0,components,identical,08,residual,-0.14426686293212265,0.0
+1.0,components,identical,08,deconv,0.014368080317594848,0.0
+1.0,components,identical,08,epoch,-0.3511681365701591,0.0
+1.0,components,identical,09,"reference: accumulator only, no noise",0.053679521057824704,0.0
+1.0,components,identical,09,residual,-0.05346714170443307,0.0
+1.0,components,identical,09,deconv,0.0643002635792432,0.0
+1.0,components,identical,09,epoch,-0.04536555781141164,0.0
+1.0,components,identical,12,"reference: accumulator only, no noise",-0.02357409959330075,0.0
+1.0,components,identical,12,residual,-0.1867800565631957,0.0
+1.0,components,identical,12,deconv,0.10861556268458418,0.0
+1.0,components,identical,12,epoch,-0.10071752788320781,0.0
+1.0,components,identical,13,"reference: accumulator only, no noise",0.18585532508622363,0.0
+1.0,components,identical,13,residual,0.04433143738513527,0.0
+1.0,components,identical,13,deconv,0.3450391219836693,0.0
+1.0,components,identical,13,epoch,-0.6968414181456283,0.0
+1.0,components,identical,14,"reference: accumulator only, no noise",0.08481181952393112,0.0
+1.0,components,identical,14,residual,0.16972901116209652,0.0
+1.0,components,identical,14,deconv,0.4182054927700232,0.0
+1.0,components,identical,14,epoch,0.008026017131326661,0.0
+1.0,components,identical,16,"reference: accumulator only, no noise",0.030211176670564263,0.0
+1.0,components,identical,16,residual,-0.07864145068870193,0.0
+1.0,components,identical,16,deconv,0.22553232549380225,0.0
+1.0,components,identical,16,epoch,0.047535499038483975,0.0
+1.0,components,identical,17,"reference: accumulator only, no noise",-0.0729588466818561,0.0
+1.0,components,identical,17,residual,-0.20687480566455493,0.0
+1.0,components,identical,17,deconv,-0.10277063657707337,0.0
+1.0,components,identical,17,epoch,-0.2661059549985109,0.0
+1.0,components,identical,18,"reference: accumulator only, no noise",-0.022130320997070674,0.0
+1.0,components,identical,18,residual,-0.03480324645278594,0.0
+1.0,components,identical,18,deconv,-0.19693165029530588,0.0
+1.0,components,identical,18,epoch,-0.0644041579479336,0.0
+1.0,components,identical,19,"reference: accumulator only, no noise",0.14559534473450061,0.0
+1.0,components,identical,19,residual,-0.0011796776470681493,0.0
+1.0,components,identical,19,deconv,-0.011531239582524588,0.0
+1.0,components,identical,19,epoch,-0.4849518348941074,0.0
+1.0,components,identical,20,"reference: accumulator only, no noise",0.11362760624500277,0.0
+1.0,components,identical,20,residual,0.10968890815797445,0.0
+1.0,components,identical,20,deconv,0.3878158138495001,0.0
+1.0,components,identical,20,epoch,-0.47522009845078095,0.0
+1.0,components,identical,21,"reference: accumulator only, no noise",0.03077129246279037,0.0
+1.0,components,identical,21,residual,-0.07659923390747464,0.0
+1.0,components,identical,21,deconv,-0.12735099557296112,0.0
+1.0,components,identical,21,epoch,-0.10814486269697524,0.0
+1.0,components,identical,22,"reference: accumulator only, no noise",0.21519100969908292,0.0
+1.0,components,identical,22,residual,-0.17102556732267873,0.0
+1.0,components,identical,22,deconv,0.052801313594616255,0.0
+1.0,components,identical,22,epoch,-1.1506247017852753,0.0
+1.0,components,identical,23,"reference: accumulator only, no noise",0.003527451781792386,0.0
+1.0,components,identical,23,residual,-0.22412911008432101,0.0
+1.0,components,identical,23,deconv,-0.3521163435693888,0.0
+1.0,components,identical,23,epoch,-0.36208771490500125,0.0
+1.0,components,identical,24,"reference: accumulator only, no noise",0.19830471691364393,0.0
+1.0,components,identical,24,residual,0.08227982832910048,0.0
+1.0,components,identical,24,deconv,0.41401325955497886,0.0
+1.0,components,identical,24,epoch,-0.20923851847011174,0.0
+1.0,components,identical,25,"reference: accumulator only, no noise",0.18891659372376743,0.0
+1.0,components,identical,25,residual,-0.12505444385463263,0.0
+1.0,components,identical,25,deconv,0.02773160876153533,0.0
+1.0,components,identical,25,epoch,-0.028670828721550762,0.0
+1.0,components,identical,26,"reference: accumulator only, no noise",0.07783061345364052,0.0
+1.0,components,identical,26,residual,-0.06748770057838735,0.0
+1.0,components,identical,26,deconv,0.03968444420991108,0.0
+1.0,components,identical,26,epoch,-0.32192543392016976,0.0
+1.0,components,identical,27,"reference: accumulator only, no noise",0.07746136963785145,0.0
+1.0,components,identical,27,residual,-0.18631394290560757,0.0
+1.0,components,identical,27,deconv,0.011756628301783372,0.0
+1.0,components,identical,27,epoch,-0.38412262026082006,0.0
+1.0,components,identical,28,"reference: accumulator only, no noise",0.08293208044718885,0.0
+1.0,components,identical,28,residual,-0.15002219317549362,0.0
+1.0,components,identical,28,deconv,0.05330172453073523,0.0
+1.0,components,identical,28,epoch,-0.4957842775906241,0.0
+1.0,components,identical,29,"reference: accumulator only, no noise",0.08404511150129353,0.0
+1.0,components,identical,29,residual,-0.06633496271582424,0.0
+1.0,components,identical,29,deconv,0.21125579853830662,0.0
+1.0,components,identical,29,epoch,-0.03505783327280756,0.0
+1.0,components,identical,30,"reference: accumulator only, no noise",-0.03856350558549977,0.0
+1.0,components,identical,30,residual,-0.05525738231579322,0.0
+1.0,components,identical,30,deconv,0.056035128553888355,0.0
+1.0,components,identical,30,epoch,-0.03340980097571868,0.0
+1.0,components,identical,31,"reference: accumulator only, no noise",0.21236574413378423,0.0
+1.0,components,identical,31,residual,-0.018326045145564792,0.0
+1.0,components,identical,31,deconv,-0.04027389896489612,0.0
+1.0,components,identical,31,epoch,-0.09705523184348293,0.0
+1.0,components,identical,32,"reference: accumulator only, no noise",0.09132166931052392,0.0
+1.0,components,identical,32,residual,-0.40837109231454943,0.0
+1.0,components,identical,32,deconv,-0.032130313975156276,0.0
+1.0,components,identical,32,epoch,-0.6635689324875548,0.0
+1.0,components,identical,33,"reference: accumulator only, no noise",0.011963540732487789,0.0
+1.0,components,identical,33,residual,-0.4794057110825919,0.0
+1.0,components,identical,33,deconv,-0.37523225463175724,0.0
+1.0,components,identical,33,epoch,-0.691020033673357,0.0
+1.0,components,identical,34,"reference: accumulator only, no noise",0.10544498425459954,0.0
+1.0,components,identical,34,residual,0.2615846882983356,0.0
+1.0,components,identical,34,deconv,0.4269847224231436,0.0
+1.0,components,identical,34,epoch,-1.970875715159263,0.0
+1.0,components,identical,35,"reference: accumulator only, no noise",-0.01095751447220032,0.0
+1.0,components,identical,35,residual,-0.19868541713697313,0.0
+1.0,components,identical,35,deconv,-0.1186428719619177,0.0
+1.0,components,identical,35,epoch,-0.2718767781803278,0.0
+1.0,components,identical,36,"reference: accumulator only, no noise",0.18606547784473326,0.0
+1.0,components,identical,36,residual,-0.07536797973664575,0.0
+1.0,components,identical,36,deconv,0.042325154654245925,0.0
+1.0,components,identical,36,epoch,-0.5980483908735085,0.0
+1.0,components,identical,37,"reference: accumulator only, no noise",0.13589461445416853,0.0
+1.0,components,identical,37,residual,-0.4587944948639892,0.0
+1.0,components,identical,37,deconv,-0.33984269723693766,0.0
+1.0,components,identical,37,epoch,-0.4199485854618481,0.0
+1.0,components,identical,38,"reference: accumulator only, no noise",0.07975153914463252,0.0
+1.0,components,identical,38,residual,-0.06031387093822784,0.0
+1.0,components,identical,38,deconv,0.14480405083605302,0.0
+1.0,components,identical,38,epoch,-0.37064430981573765,0.0
+1.0,components,identical,39,"reference: accumulator only, no noise",0.2101778577851897,0.0
+1.0,components,identical,39,residual,-0.13655095493364985,0.0
+1.0,components,identical,39,deconv,0.20225778662802935,0.0
+1.0,components,identical,39,epoch,0.12079242677396099,0.0
+1.0,components,identical,40,"reference: accumulator only, no noise",0.14158486975846615,0.0
+1.0,components,identical,40,residual,-0.09189328311596759,0.0
+1.0,components,identical,40,deconv,0.27842187538912117,0.0
+1.0,components,identical,40,epoch,-0.34625278393719927,0.0
+1.0,components,identical,41,"reference: accumulator only, no noise",0.2613420780626617,0.0
+1.0,components,identical,41,residual,-0.14508532353854248,0.0
+1.0,components,identical,41,deconv,-0.07868627360453304,0.0
+1.0,components,identical,41,epoch,0.10081091974875946,0.0
+1.0,components,identical,42,"reference: accumulator only, no noise",0.23828290121589887,0.0
+1.0,components,identical,42,residual,0.023554620078834368,0.0
+1.0,components,identical,42,deconv,0.26680895694769813,0.0
+1.0,components,identical,42,epoch,0.23053341242968473,0.0
+1.0,components,identical,43,"reference: accumulator only, no noise",0.03537012368134515,0.0
+1.0,components,identical,43,residual,0.055307708528697104,0.0
+1.0,components,identical,43,deconv,0.15684248847732604,0.0
+1.0,components,identical,43,epoch,0.021298676909191336,0.0
+1.0,components,identical,44,"reference: accumulator only, no noise",0.055896398822943685,0.0
+1.0,components,identical,44,residual,0.015363240469606998,0.0
+1.0,components,identical,44,deconv,0.07631054035351084,0.0
+1.0,components,identical,44,epoch,-0.14486405585436612,0.0
+1.0,components,identical,46,"reference: accumulator only, no noise",0.07252945043468954,0.0
+1.0,components,identical,46,residual,0.17222412301287662,0.0
+1.0,components,identical,46,deconv,0.3749266614865242,0.0
+1.0,components,identical,46,epoch,0.20396802770711006,0.0
+1.0,components,identical,47,"reference: accumulator only, no noise",0.14290457037919047,0.0
+1.0,components,identical,47,residual,0.3362814666200925,0.0
+1.0,components,identical,47,deconv,0.4887145901039205,0.0
+1.0,components,identical,47,epoch,-0.22752381643043537,0.0
+1.0,components,identical,50,"reference: accumulator only, no noise",0.0958191872237873,0.0
+1.0,components,identical,50,residual,0.07173153647160738,0.0
+1.0,components,identical,50,deconv,0.30597555106307306,0.0
+1.0,components,identical,50,epoch,0.2601797924614171,0.0
+1.0,components,identical,51,"reference: accumulator only, no noise",0.10821329112023981,0.0
+1.0,components,identical,51,residual,0.2648700291731267,0.0
+1.0,components,identical,51,deconv,0.4105210349770696,0.0
+1.0,components,identical,51,epoch,-0.012606788264612463,0.0
+1.0,components,differs,05,"reference: accumulator only, no noise",0.922291027089281,1.0
+1.0,components,differs,05,residual,1.0118653861692943,1.0
+1.0,components,differs,05,deconv,1.168128238735126,1.0
+1.0,components,differs,05,epoch,0.7827618709723307,1.0
+1.0,components,differs,07,"reference: accumulator only, no noise",0.7529742129186836,1.0
+1.0,components,differs,07,residual,0.5234441244355914,1.0
+1.0,components,differs,07,deconv,0.5577243522252867,1.0
+1.0,components,differs,07,epoch,1.0070182221447814,1.0
+1.0,components,differs,08,"reference: accumulator only, no noise",1.2843356856478125,1.0
+1.0,components,differs,08,residual,0.6945581954179415,1.0
+1.0,components,differs,08,deconv,0.6974703498704823,1.0
+1.0,components,differs,08,epoch,0.5015949341657643,1.0
+1.0,components,differs,09,"reference: accumulator only, no noise",0.7113179166980931,1.0
+1.0,components,differs,09,residual,0.4476001322271523,1.0
+1.0,components,differs,09,deconv,0.2586951292184363,1.0
+1.0,components,differs,09,epoch,0.6773929231340505,1.0
+1.0,components,differs,12,"reference: accumulator only, no noise",0.6002874912715757,1.0
+1.0,components,differs,12,residual,0.17402794773021277,1.0
+1.0,components,differs,12,deconv,0.17260507324623514,1.0
+1.0,components,differs,12,epoch,0.4314097373741887,1.0
+1.0,components,differs,13,"reference: accumulator only, no noise",0.7504182115069173,1.0
+1.0,components,differs,13,residual,0.5071722832601409,1.0
+1.0,components,differs,13,deconv,0.24052466585160875,1.0
+1.0,components,differs,13,epoch,-0.03344491688172945,1.0
+1.0,components,differs,14,"reference: accumulator only, no noise",0.39824102750158324,1.0
+1.0,components,differs,14,residual,0.32015487063786735,1.0
+1.0,components,differs,14,deconv,0.1580829970276993,1.0
+1.0,components,differs,14,epoch,0.7712379481723762,1.0
+1.0,components,differs,16,"reference: accumulator only, no noise",0.590299616122184,1.0
+1.0,components,differs,16,residual,0.2738785348610957,1.0
+1.0,components,differs,16,deconv,0.3407915165467132,1.0
+1.0,components,differs,16,epoch,1.0686622039000393,1.0
+1.0,components,differs,17,"reference: accumulator only, no noise",0.9551324408019529,1.0
+1.0,components,differs,17,residual,0.8814186615882873,1.0
+1.0,components,differs,17,deconv,0.9491586144453394,1.0
+1.0,components,differs,17,epoch,0.8347103521028181,1.0
+1.0,components,differs,18,"reference: accumulator only, no noise",0.626905013056783,1.0
+1.0,components,differs,18,residual,0.6936134718231602,1.0
+1.0,components,differs,18,deconv,0.4615069958614504,1.0
+1.0,components,differs,18,epoch,0.9849064508926675,1.0
+1.0,components,differs,19,"reference: accumulator only, no noise",1.0268250370644447,1.0
+1.0,components,differs,19,residual,0.7851969398263172,1.0
+1.0,components,differs,19,deconv,0.7196032415634966,1.0
+1.0,components,differs,19,epoch,0.5579245402961761,1.0
+1.0,components,differs,20,"reference: accumulator only, no noise",0.6762338121221446,1.0
+1.0,components,differs,20,residual,0.5375841491505394,1.0
+1.0,components,differs,20,deconv,0.37748448157514347,1.0
+1.0,components,differs,20,epoch,0.19732002633588958,1.0
+1.0,components,differs,21,"reference: accumulator only, no noise",0.4765119279900651,1.0
+1.0,components,differs,21,residual,0.23446053749550927,1.0
+1.0,components,differs,21,deconv,-0.041680727999388635,1.0
+1.0,components,differs,21,epoch,0.2969849307167647,1.0
+1.0,components,differs,22,"reference: accumulator only, no noise",0.9868967757773738,1.0
+1.0,components,differs,22,residual,0.892438761556172,1.0
+1.0,components,differs,22,deconv,0.7604502658671163,1.0
+1.0,components,differs,22,epoch,0.41295373895237264,1.0
+1.0,components,differs,23,"reference: accumulator only, no noise",1.0976232382271667,1.0
+1.0,components,differs,23,residual,0.7508295936879548,1.0
+1.0,components,differs,23,deconv,0.5363668601629058,1.0
+1.0,components,differs,23,epoch,0.7016392407744402,1.0
+1.0,components,differs,24,"reference: accumulator only, no noise",0.5978304406476995,1.0
+1.0,components,differs,24,residual,0.33205019344150916,1.0
+1.0,components,differs,24,deconv,-0.017644021611190525,1.0
+1.0,components,differs,24,epoch,0.5547663953718379,1.0
+1.0,components,differs,25,"reference: accumulator only, no noise",0.6133517469447377,1.0
+1.0,components,differs,25,residual,0.12197751620214091,1.0
+1.0,components,differs,25,deconv,-0.1973054465662865,1.0
+1.0,components,differs,25,epoch,0.41143226051511145,1.0
+1.0,components,differs,26,"reference: accumulator only, no noise",0.8040208107867796,1.0
+1.0,components,differs,26,residual,0.6670210744219432,1.0
+1.0,components,differs,26,deconv,0.6299859894901108,1.0
+1.0,components,differs,26,epoch,0.774607085056368,1.0
+1.0,components,differs,27,"reference: accumulator only, no noise",0.23973490548172524,1.0
+1.0,components,differs,27,residual,0.09248874313851305,1.0
+1.0,components,differs,27,deconv,0.057975205406490905,1.0
+1.0,components,differs,27,epoch,0.033766098650567795,1.0
+1.0,components,differs,28,"reference: accumulator only, no noise",1.1244887794040777,1.0
+1.0,components,differs,28,residual,0.4788739690410735,1.0
+1.0,components,differs,28,deconv,0.3433069059425831,1.0
+1.0,components,differs,28,epoch,0.04002900411142528,1.0
+1.0,components,differs,29,"reference: accumulator only, no noise",0.7374474272642197,1.0
+1.0,components,differs,29,residual,0.4748330522403073,1.0
+1.0,components,differs,29,deconv,0.4027356760632681,1.0
+1.0,components,differs,29,epoch,0.49212595799920694,1.0
+1.0,components,differs,30,"reference: accumulator only, no noise",0.7510022100203346,1.0
+1.0,components,differs,30,residual,0.46959515536022123,1.0
+1.0,components,differs,30,deconv,0.5609003174110246,1.0
+1.0,components,differs,30,epoch,0.6284774635899095,1.0
+1.0,components,differs,31,"reference: accumulator only, no noise",0.7073166733515368,1.0
+1.0,components,differs,31,residual,0.738464474779086,1.0
+1.0,components,differs,31,deconv,0.5881527134757732,1.0
+1.0,components,differs,31,epoch,0.684587172958015,1.0
+1.0,components,differs,32,"reference: accumulator only, no noise",1.3321594889924993,1.0
+1.0,components,differs,32,residual,0.5356378238536007,1.0
+1.0,components,differs,32,deconv,0.3287259313367081,1.0
+1.0,components,differs,32,epoch,1.3420616164247294,1.0
+1.0,components,differs,33,"reference: accumulator only, no noise",1.052409741507631,1.0
+1.0,components,differs,33,residual,0.6958470808896675,1.0
+1.0,components,differs,33,deconv,0.7180121244413005,1.0
+1.0,components,differs,33,epoch,0.2981860779675714,1.0
+1.0,components,differs,34,"reference: accumulator only, no noise",0.5444492812087104,1.0
+1.0,components,differs,34,residual,0.4532574846095465,1.0
+1.0,components,differs,34,deconv,-0.04949739533881202,1.0
+1.0,components,differs,34,epoch,-0.5813056696358979,1.0
+1.0,components,differs,35,"reference: accumulator only, no noise",0.7481637428319261,1.0
+1.0,components,differs,35,residual,0.2546367347128158,1.0
+1.0,components,differs,35,deconv,0.21547800990334673,1.0
+1.0,components,differs,35,epoch,0.5410296087013944,1.0
+1.0,components,differs,36,"reference: accumulator only, no noise",0.939296271049204,1.0
+1.0,components,differs,36,residual,0.7031660875221591,1.0
+1.0,components,differs,36,deconv,0.38705650477582954,1.0
+1.0,components,differs,36,epoch,0.6241677646469769,1.0
+1.0,components,differs,37,"reference: accumulator only, no noise",0.7871980621298622,1.0
+1.0,components,differs,37,residual,0.31806697617976215,1.0
+1.0,components,differs,37,deconv,0.19864121679004793,1.0
+1.0,components,differs,37,epoch,0.40773669127462037,1.0
+1.0,components,differs,38,"reference: accumulator only, no noise",0.823632678199508,1.0
+1.0,components,differs,38,residual,0.11999541441158994,1.0
+1.0,components,differs,38,deconv,-0.1922628129304793,1.0
+1.0,components,differs,38,epoch,0.18885727461709598,1.0
+1.0,components,differs,39,"reference: accumulator only, no noise",0.6394399136756317,1.0
+1.0,components,differs,39,residual,0.4524953465965506,1.0
+1.0,components,differs,39,deconv,0.27462809504954444,1.0
+1.0,components,differs,39,epoch,1.2273399493144714,1.0
+1.0,components,differs,40,"reference: accumulator only, no noise",1.1587779992494394,1.0
+1.0,components,differs,40,residual,0.7029677819321576,1.0
+1.0,components,differs,40,deconv,0.4231427486503326,1.0
+1.0,components,differs,40,epoch,0.784319252616844,1.0
+1.0,components,differs,41,"reference: accumulator only, no noise",0.4664446657754039,1.0
+1.0,components,differs,41,residual,0.08603338202105063,1.0
+1.0,components,differs,41,deconv,-0.12664047265898626,1.0
+1.0,components,differs,41,epoch,0.36595974628961,1.0
+1.0,components,differs,42,"reference: accumulator only, no noise",1.2179554867192628,1.0
+1.0,components,differs,42,residual,0.6417765787589501,1.0
+1.0,components,differs,42,deconv,0.6195079719591035,1.0
+1.0,components,differs,42,epoch,1.2374520275280718,1.0
+1.0,components,differs,43,"reference: accumulator only, no noise",0.8865370726545209,1.0
+1.0,components,differs,43,residual,0.5141507995548098,1.0
+1.0,components,differs,43,deconv,0.4710984093025839,1.0
+1.0,components,differs,43,epoch,0.3634904956666876,1.0
+1.0,components,differs,44,"reference: accumulator only, no noise",0.6625911941418653,1.0
+1.0,components,differs,44,residual,0.3208320515046439,1.0
+1.0,components,differs,44,deconv,0.2668282991613623,1.0
+1.0,components,differs,44,epoch,0.6196350103739998,1.0
+1.0,components,differs,46,"reference: accumulator only, no noise",1.1899074291205753,1.0
+1.0,components,differs,46,residual,0.518636627062293,1.0
+1.0,components,differs,46,deconv,0.289449829309168,1.0
+1.0,components,differs,46,epoch,1.4754040759057567,1.0
+1.0,components,differs,47,"reference: accumulator only, no noise",0.5857505508407512,1.0
+1.0,components,differs,47,residual,0.5411923196038623,1.0
+1.0,components,differs,47,deconv,0.4869294837537165,1.0
+1.0,components,differs,47,epoch,0.5519065367855777,1.0
+1.0,components,differs,50,"reference: accumulator only, no noise",0.6088067654113389,1.0
+1.0,components,differs,50,residual,0.23250357801041782,1.0
+1.0,components,differs,50,deconv,0.11610353666511769,1.0
+1.0,components,differs,50,epoch,1.2139834272842434,1.0
+1.0,components,differs,51,"reference: accumulator only, no noise",0.30222772596944886,1.0
+1.0,components,differs,51,residual,0.48235856330066923,1.0
+1.0,components,differs,51,deconv,0.47652123816365916,1.0
+1.0,components,differs,51,epoch,0.5047964749454871,1.0

@@ -1,0 +1,25 @@
+lambda,col,method,p_high,p_none,p_low
+0.0,identical,"reference: accumulator only, no noise",0.9995,0.0005,0.0
+0.0,identical,epoch,0.066,0.93,0.004
+0.0,identical,deconv,0.524,0.476,0.0
+0.0,identical,residual,0.0,0.709,0.291
+0.0,differs,"reference: accumulator only, no noise",1.0,0.0,0.0
+0.0,differs,epoch,1.0,0.0,0.0
+0.0,differs,deconv,1.0,0.0,0.0
+0.0,differs,residual,1.0,0.0,0.0
+0.5,identical,"reference: accumulator only, no noise",1.0,0.0,0.0
+0.5,identical,epoch,0.0,0.291,0.709
+0.5,identical,deconv,0.5415,0.4585,0.0
+0.5,identical,residual,0.0,0.709,0.291
+0.5,differs,"reference: accumulator only, no noise",1.0,0.0,0.0
+0.5,differs,epoch,1.0,0.0,0.0
+0.5,differs,deconv,1.0,0.0,0.0
+0.5,differs,residual,1.0,0.0,0.0
+1.0,identical,"reference: accumulator only, no noise",0.9995,0.0005,0.0
+1.0,identical,epoch,0.0,0.063,0.937
+1.0,identical,deconv,0.5405,0.4595,0.0
+1.0,identical,residual,0.0,0.7075,0.2925
+1.0,differs,"reference: accumulator only, no noise",1.0,0.0,0.0
+1.0,differs,epoch,1.0,0.0,0.0
+1.0,differs,deconv,1.0,0.0,0.0
+1.0,differs,residual,1.0,0.0,0.0
