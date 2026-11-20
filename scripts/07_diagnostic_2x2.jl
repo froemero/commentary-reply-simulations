@@ -113,11 +113,11 @@ CSV.write(joinpath(root, "results", "diagnostic_2x2_summary.csv"), summ)
 
 # figure 1: response-locked waveforms (seed 1)
 methods = ["reference: accumulator only, no noise", "epoch", "deconv", "residual"]
-fig = Figure(size = (1300, 900))
+fig = Figure(size = (1300, 900)); axs = Dict{Tuple{Int,Int},Axis}()
 rlab = Dict(:accumulator => "accumulator only", :components => "accumulator + S/R components")
 clab = Dict(:identical => "signal identical (only RT differs)", :differs => "signal differs (drift 1 vs 2)")
 for (i, (row, col)) in enumerate([(r, c) for r in (:accumulator, :components) for c in (:identical, :differs)]), (j, meth) in enumerate(methods)
-    ax = Axis(fig[i, j]; title = i == 1 ? meth : "", titlesize = 11, xlabel = i == 4 ? "time from response (s)" : "",
+    ax = axs[(i, j)] = Axis(fig[i, j]; title = i == 1 ? meth : "", titlesize = 11, xlabel = i == 4 ? "time from response (s)" : "",
               ylabel = j == 1 ? "$(rlab[row])\n$(clab[col])" : "", ylabelsize = 10)
     for (c, colr) in (("low", :steelblue), ("high", :firebrick))
         t, y = examples[(row, col)][meth][c]; lines!(ax, t, y; color = colr, label = "$c drift")
@@ -125,19 +125,10 @@ for (i, (row, col)) in enumerate([(r, c) for r in (:accumulator, :components) fo
     vlines!(ax, [0]; color = :gray, linestyle = :dash); vspan!(ax, [-0.25], [-0.05]; color = (:gray, 0.12))
     i == 1 && j == 1 && axislegend(ax; position = :lt, framevisible = false, labelsize = 9)
 end
+linkyaxes!([axs[(i, j)] for i in 1:4, j in 1:3]...); linkyaxes!([axs[(i, 4)] for i in 1:4]...)
+for i in 1:4, j in 1:3; ylims!(axs[(i, j)], -0.05, 0.9); end
+Label(fig[5, 1:4], "Columns 1–3 share one y-axis; residual (column 4) shares its own, smaller y-axis. Grey band = slope window."; fontsize = 11)
 save(joinpath(root, "figures", "diagnostic_2x2_waveforms.png"), fig, px_per_unit = 2)
 
-# figure 2: slope difference estimates vs truth
-fig = Figure(size = (1100, 380))
-for (k, (row, col)) in enumerate([(r, c) for r in (:accumulator, :components) for c in (:identical, :differs)])
-    ax = Axis(fig[1, k]; title = "$(rlab[row])\n$(clab[col])", titlesize = 10, xticks = (1:4, ["ref", "epoch", "deconv", "resid"]),
-              ylabel = k == 1 ? "build-up rate difference, high − low (a.u./s)" : "", ylabelsize = 10)
-    for (j, meth) in enumerate(methods)
-        v = df[(df.row .== String(row)) .& (df.col .== String(col)) .& (df.method .== meth), :slope_diff]
-        boxplot!(ax, fill(j, length(v)), v; width = 0.6, color = (:gray, 0.4))
-    end
-    hlines!(ax, [truth[col]]; color = :black, linestyle = :dash)
-end
-Label(fig[0, :], "Estimated build-up-rate difference (response-locked slope, −250 to −50 ms) over $(nseeds) simulated experiments; dashed = latent truth"; fontsize = 12)
-save(joinpath(root, "figures", "diagnostic_2x2_slopes.png"), fig, px_per_unit = 2)
+include(joinpath(@__DIR__, "08_plot_diagnostic_2x2.jl"))  # 2×2 slope figure
 println("done")
